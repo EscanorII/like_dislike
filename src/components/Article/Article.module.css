@@ -1,0 +1,6 @@
+.article{
+    grid-area: article;
+    display: flex;
+    background-color: darkgoldenrod;
+    min-height: 700px;
+}

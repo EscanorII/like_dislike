@@ -1,0 +1,50 @@
+.aside{
+    grid-area: aside;
+    display: grid;
+    background-color: lightslategrey;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+
+aside div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #f06969;
+    font-size: 30px;
+    color: #f7f7f7;
+    height: 100%;
+}
+
+div a {
+    text-decoration: none;
+
+}
+
+
+
+@media (min-width: 640px){
+    .aside{
+        min-height: 800px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 250px 250px;
+    }
+}
+
+@media (max-width: 640px){
+    .aside{
+        grid-template-columns: 1fr;
+        grid-auto-rows: 100px;
+    }
+}
+
+aside div:hover{
+    background-color: #cd3d3d;
+    transform: scale(1.04);
+    font-size: 35px;
+    transition-duration: 0.5s;
+    border: 2px solid #250808;
+
+}
