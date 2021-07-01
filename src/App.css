@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #6f746f;
+}
+.main{
+    display: grid;
+    grid-auto-rows: minmax(100px,auto);
+    grid-gap: 10px;
+
+}
+
+
+@media (min-width: 640px) {
+  .main{
+    grid-template-areas:
+            "header header"
+            "aside article"
+            "aside footer";
+    grid-template-columns: 2fr 6fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .main{
+    grid-template-areas:
+            "header"
+            "aside"
+            "article"
+            "footer";
+  }
+  article{
+      min-height: 400px;
+    }
+  aside{
+      height: auto;
+  }
+
+}
+

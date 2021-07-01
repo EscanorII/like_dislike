@@ -1,0 +1,36 @@
+form{
+    font-size: 30px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    color: #c1e1f3;
+    font-weight: 600;
+}
+
+input, textarea{
+    font-size: 30px;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.btn button{
+    height: 40px;
+    font-size: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: rgba(130, 247, 130, 0.62);
+}
+
+.btn button:hover{
+    cursor: pointer;
+    background-color: rgba(88, 170, 29, 0.96);
+    color: #f7f7f7;
+}

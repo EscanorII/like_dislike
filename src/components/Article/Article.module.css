@@ -1,0 +1,6 @@
+.article{
+    grid-area: article;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #544350, #1380cf, #434349);
+}

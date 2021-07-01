@@ -1,0 +1,8 @@
+.image_div{
+    border-radius: 20px;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
