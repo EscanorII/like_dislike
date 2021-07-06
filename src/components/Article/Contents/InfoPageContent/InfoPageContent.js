@@ -2,7 +2,9 @@ import style from "./InfoPageContent.module.css"
 
 const InfoPageContent = () => {
     return (
-        <h1>INFO</h1>
+        <div className={style.div}>
+            <h1>INFO</h1>
+        </div>
     )
 }
 

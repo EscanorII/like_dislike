@@ -2,10 +2,12 @@
     display: flex;
     width: 60%;
     background-color: rgba(113, 110, 110, 0.29);
-    margin:10vh 0;
+    margin: 2vh 0;
     border-radius: 30px;
     box-shadow: -2px -4px 10px 3px #B284BE;
     justify-content: center;
+    flex-direction: column;
+
 }
 
 @media (max-width: 640px){
@@ -14,4 +16,10 @@
     }
 }
 
+
+@media (max-width: 1200px){
+    .div {
+        width: 90%;
+    }
+}
 

@@ -1,8 +1,48 @@
 .image_div{
-    border-radius: 20px;
+    display: block;
+    max-width:100%;
+    height:auto;
+    min-height: 400px;
 }
 .div{
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+
+}
+
+.divPhoto{
+    display: flex;
+    padding: 5px;
+    border: 4px solid black;
+    background: #2c3434;
+    justify-content: center;
+}
+
+.divButtons{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+button{
+    margin-right: 5px;
+    background: #d6e51f;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #030e65;
+}
+
+.divButt{
+    display: flex;
+    background: #75a3bb;
+    padding: 2px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+div{
+
 }
